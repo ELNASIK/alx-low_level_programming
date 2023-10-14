@@ -15,7 +15,7 @@ int main(void)
 		putchar(n);
 		if (n == 57)
 			n = n + 39;
-			n++;
+		n++;
 	}
 	printf("\n");
 
