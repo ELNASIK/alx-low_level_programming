@@ -12,10 +12,10 @@ int main(void)
 
 	while (n <= 102)
 	{
-	putchar(n);
-	if (n == 57)
-		n = n + 39;
-		n++;
+		putchar(n);
+		if (n == 57)
+			n = n + 39;
+			n++;
 	}
 	printf("\n");
 
