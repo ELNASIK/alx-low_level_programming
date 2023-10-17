@@ -18,5 +18,5 @@ void _puts(char *str)
 
 	}
 
-	_putchar('\0');
+
 }
