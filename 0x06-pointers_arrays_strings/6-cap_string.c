@@ -16,7 +16,7 @@ int isLower(char c)
  * @c : a charactar
  * Return: 1 if true, 0 if false.
 */
-int isDelimiter(char c)
+int isDelimiter(char c *)
 {
 	int i;
 
