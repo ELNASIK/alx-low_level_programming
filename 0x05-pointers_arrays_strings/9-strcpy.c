@@ -4,7 +4,8 @@
  * @dest:char type string
  * @*src : char type string
  *
- *description: copy the string pointed by the pointer to buffer pointed by dest
+ *description: copy the string pointed by the pointer 'src'
+ * to buffer pointed by dest
  *
  * Return: pointer to 'dest'
 */
