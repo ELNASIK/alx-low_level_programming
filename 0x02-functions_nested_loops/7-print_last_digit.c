@@ -8,12 +8,11 @@
 */
 int print_last_digit(int n)
 {
-	int lastDigit;
+	int lastd;
 
-	if (lastDigit > 0)
-		lastDigit = (-1) * (n % 10);
+	if (lastd > 0)
+		lastd = (-1) * (n % 10);
 	else
-		lastDigit = n % 10;
-	printf("%d + %c", lastDigit, 'c');
-	return (lastDigit);
-}
+		lastd = n % 10;
+	printf("%d + %c", lastd, 'c');
+	return (lastd);}
