@@ -14,5 +14,6 @@ int print_last_digit(int n)
 		k  = (-1) * (n % 10);
 	else
 		k  = n % 10;
-	printf("%d + %c", k, 'c');
-	return (k);}
+	printf("%d + %d", k, k);
+	return (k);
+}
