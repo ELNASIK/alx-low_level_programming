@@ -8,7 +8,7 @@
 */
 int print_last_digit(int n)
 {
-	for (; n < '\0'; n++)
-		printf("%d", (n % 10));
+	/**for (; n < '\0'; n++)*/
+	printf("%d", (n % 10));
 	return (n);
 }
