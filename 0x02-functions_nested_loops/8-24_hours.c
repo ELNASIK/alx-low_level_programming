@@ -10,14 +10,13 @@ void jack_bauer(void)
 {
 	int m;
 	int s;
-	int m1;
-	int s1;
 
 	for (m = 100; m <= 123; m++)
-		for (s = 100; s <= 660; s++)
+		for (s = 100; s <= 159; s++)
 		{
-			m1 = m % 100;
-			s1 = s % 100;
-			_putchar(m1 + ':' + s1);
+			_putchar((m % 100) + 48);
+			_putchar(':');
+			_putchar((s % 100) + 48);
+			_putchar('\n');
 		}
 }
