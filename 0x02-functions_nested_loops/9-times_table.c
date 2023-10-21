@@ -18,10 +18,12 @@ void times_table(void)
 			_putchar(44);
 			_putchar(' ');
 			if (pro <= 9)
-				_putchar('');
+				_putchar(' ');
 			else
+			{
 				_putchar((pro / 10) + 48);
-				_putchar((pro % 10) + 48);
+			}	_putchar((pro % 10) + 48);
+
 
 		}
 		_putchar('\n');
