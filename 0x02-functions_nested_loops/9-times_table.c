@@ -20,9 +20,8 @@ void times_table(void)
 			if (pro <= 9)
 				_putchar(' ');
 			else
-			{
 				_putchar((pro / 10) + 48);
-			}	_putchar((pro % 10) + 48);
+			_putchar((pro % 10) + 48);
 
 
 		}
