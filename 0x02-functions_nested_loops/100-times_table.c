@@ -15,14 +15,28 @@ void print_times_table(int n)
 			for (i = 0; i < n; i++)
 			{
 				mul_1 = i * l;
-				printf("%d", mul_1);
-				_putchar(',');
-				_putchar(32);
-				_putchar(32);
-				_putchar(32);
+				if (mul_1 <= 9)
+				{
+					_putchar(mul_1 + 48);
+					_putchar(',');
+					_putchar(32);
+					_putchar(32);
+					_putchar(32);
+				}
+				else
+				{
+					_putchar((mul_1 / 10) + 48);
+					_putchar((mul_1 % 10) + 48);
+				}
 			}
 			mul = n * l;
-			printf("%d", mul);
+			if (mul <= 9)
+				_putchar(mul + 48);
+			else
+			{
+				_putchar((mul / 10) + 48);
+				_putchar((mul % 10) + 48);
+			}
 			_putchar('\n');
 		}
 	}
