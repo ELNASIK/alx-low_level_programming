@@ -15,12 +15,12 @@ void print_times_table(int n)
 			for (i = 0; i < n; i++)
 			{
 				mul_1 = i * l;
-				_putchar(mul_1);
+				_putchar(mul_1 + 48);
 				_putchar(',');
 				_putchar(32);
 			}
 			mul = n * l;
-			_putchar(mul);
+			_putchar(mul + 48);
 		}
 	}
 	_putchar('\n');
