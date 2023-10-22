@@ -15,7 +15,10 @@ void print_times_table(int n)
 			for (i = 0; i < n; i++)
 			{
 				mul_1 = i * l;
-				_putchar(mul_1 + 48);
+				if (mul_1 >= 9)
+					_putchar(mul_1 + 48);
+				else
+					_putchar((pro / 10) + 48);
 				_putchar(',');
 				_putchar(32);
 				_putchar(32);
