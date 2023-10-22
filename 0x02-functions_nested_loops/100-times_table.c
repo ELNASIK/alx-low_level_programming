@@ -35,10 +35,15 @@ void print_times_table(int n)
 			mul = n * l;
 			if (mul <= 9)
 				_putchar(mul + 48);
-			else
+			else if (mul <= 99)
 			{
 				_putchar((mul / 10) + 48);
 				_putchar((mul % 10) + 48);
+			}
+			else
+			{
+				_putchar((mul / 100) + 48);
+                                _putchar((mul % 100) + 48);
 			}
 			_putchar('\n');
 		}
