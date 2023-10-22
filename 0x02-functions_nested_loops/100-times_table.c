@@ -8,7 +8,7 @@ void print_times_table(int n)
 {
 	int  l, mul_1, i, mul;
 
-	if ((n < 15) && (n > 0))
+	if ((n < 15) && (n >= 0))
 	{
 		for (l = 0; l <= n; l++)
 		{
@@ -23,7 +23,6 @@ void print_times_table(int n)
 				_putchar(32);
 				_putchar(32);
 				_putchar(32);
-				_putchar(' ');
 			}
 			mul = n * l;
 			_putchar(mul + 48);
