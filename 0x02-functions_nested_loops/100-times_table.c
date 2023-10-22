@@ -12,14 +12,14 @@ void print_times_table(int n)
 	{
 		for (l = 0; l <= n; l++)
 		{
-			for (i = 0; i < n; i++)
+			putchar(48);
+			for (i = 1; i < n; i++)
 			{
 				mul_1 = i * l;
 				if (mul_1 <= 9)
 				{
 					_putchar(mul_1 + 48);
 					_putchar(',');
-					_putchar(32);
 					_putchar(32);
 					_putchar(32);
 					_putchar(32);
