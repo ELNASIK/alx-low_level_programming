@@ -20,5 +20,5 @@ void print_to_98(int n)
 		for (i = n; i > 98; i--)
 			printf("%d%c ", i, ',');
 	}
-	printf("%d", 98);
+	printf("%d\n", 98);
 }
