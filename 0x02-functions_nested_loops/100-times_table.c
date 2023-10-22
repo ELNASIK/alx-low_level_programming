@@ -21,6 +21,7 @@ void print_times_table(int n)
 			}
 			mul = n * l;
 			_putchar(mul + 48);
+			_putchar('\n');
 		}
 		_putchar('\n');
 	}
