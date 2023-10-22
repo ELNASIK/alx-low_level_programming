@@ -24,8 +24,8 @@ void print_times_table(int n)
 					_putchar(32);
 				}
 				else
-					    _putchar((mul / 10) + 48);
-                                _putchar((mul % 10) + 48);
+					 _putchar((mul / 10) + 48);
+                                	_putchar((mul % 10) + 48);
 			}
 			mul = n * l;
 			if (mul <= 9)
