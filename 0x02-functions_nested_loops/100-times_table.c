@@ -18,10 +18,11 @@ void print_times_table(int n)
 				_putchar(mul_1 + 48);
 				_putchar(',');
 				_putchar(32);
+				_putchar(32;)
 			}
 			mul = n * l;
 			_putchar(mul + 48);
-			_putchar('\n');
+			_putchar('\n')u;
 		}
 		_putchar('\n');
 	}
