@@ -44,7 +44,7 @@ void print_times_table(int n)
 				_putchar(49);
 				_putchar(48);
 			 	_putchar(48);
-			else if (mul > 100)
+			else
 			{
 				_putchar((mul / 100) + 48);
                                 _putchar((mul % 100) + 48);
