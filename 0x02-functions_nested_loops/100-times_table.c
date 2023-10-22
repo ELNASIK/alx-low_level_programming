@@ -40,10 +40,12 @@ void print_times_table(int n)
 				_putchar((mul / 10) + 48);
 				_putchar((mul % 10) + 48);
 			}
-			else if(mul == 100)
+			else if (mul == 100)
+			{
 				_putchar(49);
 				_putchar(48);
 			 	_putchar(48);
+			}
 			else
 			{
 				_putchar((mul / 100) + 48);
