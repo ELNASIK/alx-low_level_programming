@@ -8,14 +8,19 @@
 */
 int main(void)
 {
-	int n, n1, n2, i;
+	int i;
+	unsigned long f1 = 0, f2 = 1, sum;
 
-	for (i = 2; i <= 50; i++)
+	for (i = 0; i < 50; i++)
 	{
-		n1 = i - 1;
-		n2 = i - 2;
-		n = n1 + n2;
-		printf("%d, ", n);
+		sum = f1 + f2;
+		printf("%lu", sum);
+		f1 = f2;
+		f2 = sum;
+		if (i == 49)
+			printf("\n");
+		else
+			printf(", ");
 	}
 	return (0);
 }
