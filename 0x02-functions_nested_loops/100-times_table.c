@@ -25,7 +25,11 @@ void print_times_table(int n)
 				_putchar(32);
 			}
 			mul = n * l;
-			_putchar(mul + 48);
+			if (mul >= 9)	
+				_putchar(' ');
+                        else
+                                _putchar((pro / 10) + 48);
+			_putchar((pro % 10) + 48);
 			_putchar('\n');
 		}
 	}
