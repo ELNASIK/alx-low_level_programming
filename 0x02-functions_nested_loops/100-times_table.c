@@ -16,13 +16,14 @@ void print_times_table(int n)
 			{
 				mul_1 = i * l;
 				if (mul_1 >= 9)
-					_putchar(mul_1 + 48);
+					_putchar(' ');
 				else
 					_putchar((mul_1 / 10) + 48);
 				_putchar(',');
 				_putchar(32);
 				_putchar(32);
 				_putchar(32);
+				_putchar(' ');
 			}
 			mul = n * l;
 			_putchar(mul + 48);
