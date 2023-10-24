@@ -3,7 +3,7 @@
 /**
  * print_diagsums -sum of the two diagonals of a square matrix of integers.
  * @a :squar  array to be examind
- *
+ * @size: give the size of array a
  * Return: Nothing
  *
 */
@@ -18,5 +18,5 @@ void print_diagsums(int *a, int size)
 		a += size;
 	}
 	printf("%d", sum1);
-	printf("%d", sum2);
+	printf("%d\n", sum2);
 }
