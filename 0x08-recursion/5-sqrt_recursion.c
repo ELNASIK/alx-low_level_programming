@@ -13,18 +13,19 @@
  * Return: squar of suitable numbers
  *
 */
-int _squar_(int n, int v)
+int _squar_(int n, int v);
 
 int _sqrt_recursion(int n)
 {
-	return (_squar_(n, 1));
+return (_squar_(n, 1));
 }
 int _squar_(int n, int v)
 {
-	if ((v * v) == n)
-		return (v);
-	else if ((v * v) < n)
-		return (_squar(n, v + 1));
-	else
-		return (-1);
+
+if ((v * v) == n)
+	return (v);
+else if ((v * v) < n)
+	return (_squar_(n, v + 1));
+else
+	return (-1);
 }
