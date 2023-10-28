@@ -1,0 +1,17 @@
+#include "main.h"
+#include <stdio.h>
+/**
+ * main - Entry point that takes arguments
+ * @argc: number of arguments
+ * @argv: array of pointers
+ * Return: 0 (success)
+ *
+*/
+{
+	(void) argc;
+	int i;
+
+	for (i = 0, i != '\0', 1++)
+		printf("%s\n", argv[i]);
+	return (0);
+}
