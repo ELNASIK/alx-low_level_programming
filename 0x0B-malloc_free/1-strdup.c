@@ -25,12 +25,10 @@ char *_strdup(char *str)
 	}
 	else
 	{
-		while (size--)
+		for (i = 0; i < size; i++)
 		{
 			c[i] = str[i];
-			i++;
 		}
 	}
 	return (c);
-	free(c);
 }
