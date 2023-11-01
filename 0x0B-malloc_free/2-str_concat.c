@@ -9,15 +9,15 @@
 */
 char *str_concat(char *s1, char *s2)
 {
-        int i = 0;
-        int j,n,g;
-        char *c;
+	int i = 0;
+	int j,n,g;
+	char *c;
 
 	if (s1 == NULL)
 		s1 = "\0";
 	if (s2 == NULL)
 		s2 = "\0";
-	for (; s1[i] != '\0';i++)
+	for (; s1[i] != '\0'; i++)
 		;
 	for (j = 0; s2[j] != '\0'; j++)
 		;
