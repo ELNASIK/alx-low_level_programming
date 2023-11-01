@@ -12,22 +12,15 @@ char *str_concat(char *s1, char *s2)
         int i = 0;
         int j,n;
         char *c;
-        
-        if (s2 == NULL)
-        {
-                return (s1);
-        }
-        else
-        {       
-                for (; i != '\0';i++)
-                        ;
-                for (j = 0; j != '\0'; j++)
-                        ;
-                c = malloc(i + j);
-		for (n = 0; n <= i; n++)
-			c[n] = s1[n];
-		for (n = i; n <= j; n++)
-			c[n] = s2[n];
-		return (c);
-	}
+
+	for (; i != '\0';i++)
+		;
+	for (j = 0; j != '\0'; j++)
+		;
+	c = malloc(i + j);
+	for (n = 0; n <= i; n++)
+		c[n] = s1[n];
+	for (n = i; n <= j; n++)
+		c[n] = s2[n];
+	return (c);
 }
