@@ -15,12 +15,12 @@ char *str_concat(char *s1, char *s2)
 
 	for (; s1[i] != '\0';i++)
 		;
-	for (j = 0; s2[j] <= '\0'; j++)
+	for (j = 0; s2[j] != '\0'; j++)
 		;
 	c = malloc(i + j);
 	for (n = 0; n <= i; n++)
 		c[n] = s1[n];
-	for (n = i; n <= j; n++)
+	for (; n <= j; n++)
 		c[n] = s2[n];
 	return (c);
 }
